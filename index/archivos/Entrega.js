@@ -113,7 +113,7 @@ async function main (){
     
 }
 
-export default {Productos, main}
+export default {Productos};
 
 
 
