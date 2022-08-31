@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div>
+        <h1>hola mundo</h1>
+        <div><!--muestra y agregar productos-->
+           
+            <h4>agregar producto</h4>
+            <input placeholder="nombre Producto" type="text" id="nombreProducto">
+            <input placeholder="categoria" type="text" id="categoria">
+            <input placeholder="precio" type="number" id="precio">
+            <button id="enviarProducto">enviar</button>
+
+            <div>
+                <h4>catalogo</h4>
+                <div id="catalogo">
+
+                </div>
+            </div>
+        </div>
+
+        <div><!--chat-->
+            <input type="email" id="mail">
+            <input type="text" id="texto">
+            <button id="enviar">enviar</button>
+            
+            <div id="chat">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
