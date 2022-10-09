@@ -72,6 +72,15 @@ class ContenedorMongoDB{
         }
     }
 
+    async borrarTodo(){
+        try {
+            const borrar = await this.coleccion.deleteMany();
+            return borrar
+        } catch (error) {
+            'lo sentimos no hemos podido eliminar los elementos'
+        }
+    }
+
 }
 
 export default ContenedorMongoDB;
