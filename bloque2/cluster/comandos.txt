@@ -1,0 +1,20 @@
+pm2 start ./miservidor.js --name="server1" -- watch --port=8080 
+pm2 start ./miservidor.js --name="server2" -- watch --port=8081 
+pm2 start ./miservidor.js --name="server3" -- watch -i max --port=8082 
+pm2 start ./miservidor.js --name="server4" -- watch -i max --port=8083 
+pm2 start ./miservidor.js --name="server5" -- watch -i max --port=8084 
+pm2 start ./miservidor.js --name="server6" -- watch -i max --port=8085 
+
+pm2 stop ./miservidor.js --name="server1" -- watch --port=8080 
+pm2 stop ./miservidor.js --name="server2" -- watch --port=8081 
+pm2 stop ./miservidor.js --name="server3" -- watch -i max --port=8082 
+pm2 stop ./miservidor.js --name="server4" -- watch -i max --port=8083 
+pm2 stop ./miservidor.js --name="server5" -- watch -i max --port=8084 
+pm2 stop ./miservidor.js --name="server6" -- watch -i max --port=8085 
+
+pm2 restar ./miservidor.js --name="server1" -- watch --port=8080 
+pm2 restar ./miservidor.js --name="server2" -- watch --port=8081 
+pm2 restar ./miservidor.js --name="server3" -- watch -i max --port=8082 
+pm2 restar ./miservidor.js --name="server4" -- watch -i max --port=8083 
+pm2 restar ./miservidor.js --name="server5" -- watch -i max --port=8084 
+pm2 restar ./miservidor.js --name="server6" -- watch -i max --port=8085 
