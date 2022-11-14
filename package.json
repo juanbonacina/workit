@@ -27,6 +27,7 @@
     "express-session": "^1.17.3",
     "faker": "^6.6.6",
     "knex": "^2.3.0",
+    "log4js": "^6.7.0",
     "minimist": "^1.2.7",
     "mongoose": "^6.6.1",
     "morgan": "^1.10.0",
